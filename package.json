@@ -44,7 +44,7 @@
       "airbnb"
     ],
     "rules": {
-      "padded-blocks": "off"
+      "padded-blocks": 0
     }
   }
 }
