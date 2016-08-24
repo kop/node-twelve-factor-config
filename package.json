@@ -1,0 +1,52 @@
+{
+  "name": "@kop/12factor-config",
+  "version": "0.0.0",
+  "description": "An easy to use 12factor configuration for Node.js",
+  "homepage": "https://github.com/kop/node-12factor-config",
+  "license": "MIT",
+  "keywords": [
+    "12factor",
+    "config",
+    "configuration",
+    "env",
+    "environment"
+  ],
+  "author": "Ivan Koptiev <ivan.koptiev@codex.systems>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kop/node-12factor-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kop/node-12factor-config/issues"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint --silent",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.15.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-plugin-react": "^6.1.2",
+    "eslint-plugin-import": "^1.7.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-jsx-a11y": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb"
+    ],
+    "rules": {
+      "padded-blocks": "off"
+    }
+  }
+}
