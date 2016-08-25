@@ -2,7 +2,7 @@
   "name": "twelve-config",
   "version": "1.1.0",
   "description": "An easy to use 12factor configuration for Node.js",
-  "homepage": "https://github.com/kop/node-12factor-config",
+  "homepage": "https://github.com/kop/node-twelve-config",
   "license": "MIT",
   "keywords": [
     "12factor",
@@ -14,10 +14,10 @@
   "author": "Ivan Koptiev <ivan.koptiev@codex.systems>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kop/node-12factor-config.git"
+    "url": "https://github.com/kop/node-twelve-config.git"
   },
   "bugs": {
-    "url": "https://github.com/kop/node-12factor-config/issues"
+    "url": "https://github.com/kop/node-twelve-config/issues"
   },
   "directories": {
     "lib": "./lib"
