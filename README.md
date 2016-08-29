@@ -1,8 +1,8 @@
-Twelve Config
-=============
+@kop/twelve-factor-config
+=========================
 
-[![Dependency Status](https://gemnasium.com/badges/github.com/kop/node-twelve-config.svg)](https://gemnasium.com/github.com/kop/node-twelve-config)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kop/node-twelve-config/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kop/node-twelve-config/?branch=master)
+[![Dependency Status](https://gemnasium.com/badges/github.com/kop/node-twelve-factor-config.svg)](https://gemnasium.com/github.com/kop/node-twelve-factor-config)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kop/node-twelve-factor-config/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kop/node-twelve-factor-config/?branch=master)
 
 An easy to use 12factor configuration for Node.js.
 

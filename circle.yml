@@ -1,0 +1,14 @@
+dependencies:
+  pre:
+    - echo "//registry.npmjs.org/:_authToken=${KOP_NPM_TOKEN}" > ${HOME}/.npmrc
+
+test:
+  override:
+    - echo "No tests available"
+
+deployment:
+  publish:
+    tag: /[0-9]+\.[0-9]+\.[0-9]+[a-zA-Z\-]*/
+    commands:
+      - npm version --no-git-tag-version $CIRCLE_TAG
+      - npm publish --access public

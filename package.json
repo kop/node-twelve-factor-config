@@ -1,8 +1,8 @@
 {
-  "name": "twelve-config",
-  "version": "1.1.1",
+  "name": "@kop/twelve-factor-config",
+  "version": "0.0.0",
   "description": "An easy to use 12factor configuration for Node.js",
-  "homepage": "https://github.com/kop/node-twelve-config",
+  "homepage": "https://github.com/kop/node-twelve-factor-config",
   "license": "MIT",
   "keywords": [
     "12factor",
@@ -14,10 +14,10 @@
   "author": "Ivan Koptiev <ivan.koptiev@codex.systems>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kop/node-twelve-config.git"
+    "url": "https://github.com/kop/node-twelve-factor-config.git"
   },
   "bugs": {
-    "url": "https://github.com/kop/node-twelve-config/issues"
+    "url": "https://github.com/kop/node-twelve-factor-config/issues"
   },
   "directories": {
     "lib": "./lib"
@@ -33,11 +33,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^3.3.1",
-    "eslint-plugin-react": "^6.1.2",
-    "eslint-plugin-import": "^1.7.0",
+    "eslint": "^3.4.0",
+    "eslint-plugin-react": "^6.2.0",
+    "eslint-plugin-import": "^1.14.0",
     "eslint-config-airbnb": "^10.0.1",
-    "eslint-plugin-jsx-a11y": "^2.1.0"
+    "eslint-plugin-jsx-a11y": "^2.2.0"
   },
   "eslintConfig": {
     "extends": [
