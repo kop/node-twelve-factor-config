@@ -14,7 +14,7 @@ Configuration and usage
 -----------------------
 
 ```js
-const config = new TwelveConfig({prefix: "MY_APP_"});
+const config = new ConfigParser({prefix: "MY_APP_"});
 config.val('ENV_VAR_NAME', 'default value');
 config.string('ENV_VAR_NAME', 'default value'); // works same as previous
 config.number('ENV_VAR_NAME', 100);
